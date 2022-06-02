@@ -21,6 +21,7 @@ public class BaseClass {
 	//public AppiumDriverLocalService server;
 	public FileUtility fd=new FileUtility();
 
+	
 	@BeforeClass
 	public void openserver() throws Throwable {
 		fd.getPropertyFile();
